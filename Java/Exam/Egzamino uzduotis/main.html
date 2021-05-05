@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Egzamino užduotis</title>
+
+    <h1 onClick="myFunction()">Apie tinklalapį</h1>
+
+</head>
+
+<body>
+    <div id="myDIV">
+        <p class="melynas-tekstas">Tinklalapis yra skirtas išsisaugoti savo arba kitų sukurtus receptus. Apačioje yra
+            forma,kurią įvedus bus galima
+            išsaugoti.</p>
+    </div>
+
+    <label for="Pavadinimas"><b class="melynas-tekstas" id="Pavadinimas">Pavadinimas</b></label>
+    <input type="text" name="Pavadinimas">
+    <br>
+    <label for="Ingridientai"><b>Ingridientai</b></label>
+    <input type="text" class="pasvires-raudonas-tekstas" name="Ingridientai" id="Ingridientai">
+    <br>
+    <label for="Nurodymai"><b>Nurodymai</b></label>
+    <input type="text" class="padidintas-langelis pasvires-raudonas-tekstas" name="Nurodymai" id="Nurodymai">
+
+
+
+
+
+    </form>
+    <br>
+    <button type="submit" class="button" onClick="changeColor(), check(), countLetterA()">Spausti čia</button>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\bin\Debug\netcoreapp3.1\TicTacToeOOP.exe
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\bin\Debug\netcoreapp3.1\TicTacToeOOP.deps.json
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\bin\Debug\netcoreapp3.1\TicTacToeOOP.runtimeconfig.json
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\bin\Debug\netcoreapp3.1\TicTacToeOOP.runtimeconfig.dev.json
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\bin\Debug\netcoreapp3.1\TicTacToeOOP.dll
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\bin\Debug\netcoreapp3.1\TicTacToeOOP.pdb
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\obj\Debug\netcoreapp3.1\TicTacToeOOP.csprojAssemblyReference.cache
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\obj\Debug\netcoreapp3.1\TicTacToeOOP.AssemblyInfoInputs.cache
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\obj\Debug\netcoreapp3.1\TicTacToeOOP.AssemblyInfo.cs
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\obj\Debug\netcoreapp3.1\TicTacToeOOP.csproj.CoreCompileInputs.cache
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\obj\Debug\netcoreapp3.1\TicTacToeOOP.dll
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\obj\Debug\netcoreapp3.1\TicTacToeOOP.pdb
+D:\Personal Projects\Personal-Projects\C#\TicTacToeOOP\TicTacToeOOP\obj\Debug\netcoreapp3.1\TicTacToeOOP.genruntimeconfig.cache

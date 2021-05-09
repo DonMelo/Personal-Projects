@@ -4,9 +4,15 @@ namespace TicTacToeOOP
 {
     class Program
     {
-        static void Main(string[] args)
+        static Game TicTacToe = new Game();
+        static int Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            while (TicTacToe.Play())
+            {
+                
+            }
+            return 0; 
+               
         }
     }
 }

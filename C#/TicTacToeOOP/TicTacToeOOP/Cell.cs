@@ -1,54 +1,59 @@
 ﻿using System;
 
-public enum CellValue { unasigned=0, cross=1, circle=2 };
+public enum CellSign { unasigned=0, cross=1, circle=2 };
 
 public class Cell
 {
+	public CellSign Sign { get { return sign; } }
 	int Position;
-
-	CellValue Value = CellValue.unasigned;
+	
+	CellSign sign = CellSign.unasigned;
 	
 
 	public Cell(int position)
 	{
 		Position = position;
 	}
-
-	public void ChangeCellValue(CellValue newValue)
+	
+	public bool ChangeCellSign(CellSign newValue)
     {
-		if (!IsCellValueCorrect(newValue))
-			System.Diagnostics.Debug.WriteLine("incorrect cell value");
-		
-		Value = newValue;
-		
+		if (!IsCellSignChangeable(newValue)) 
+		{
+			Console.WriteLine("incorrect cell value");
+
+			return false;
+
+		}
+
+		sign = newValue;
+		return true;
 
 
 	}
-	private bool IsCellValueCorrect(CellValue Value)
+	private bool IsCellSignChangeable(CellSign Value)
     {
-		if ((int)Value > 2 || (int)Value < 0)
-		{
+		if (CellSign.cross == sign || CellSign.circle == sign)
+        {
 			return false;
-		}
-        
+        }
 		return true;
 	}
 	
 	public void DrawCell()
     {
-		switch (Value)
+		switch (sign)
         {
-			case CellValue.unasigned:
-				Console.WriteLine(Position);
+			case CellSign.unasigned:
+				Console.Write(Position);
 				break;
-			case CellValue.cross:
-				Console.WriteLine("X");
+			case CellSign.cross:
+				Console.Write("X");
 				break;
-			case CellValue.circle:
-				Console.WriteLine("O");
+			case CellSign.circle:
+				Console.Write("O");
 				break;
 			default:
-				Console.WriteLine("Incorrect Value");
+				Console.Write("Incorrect Value");
 				break;
 
 		}
